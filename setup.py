@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="UTF-8") as f:
     long_description = f.read()
 
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 REPO_NAME = "ViewMatrixPro"
 AUTHOR_USER_NAME = "Shubhamsharma1930"
