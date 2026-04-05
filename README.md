@@ -4,7 +4,7 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/ViewMatrixPro.svg)](https://pypi.org/project/ViewMatrixPro/)
 [![License](https://img.shields.io/pypi/l/ViewMatrixPro.svg)](https://github.com/entbappy/ViewMatrixPro/blob/main/LICENSE)
 
-**ViewMatrixPro** is a lightweight Python library designed for Data Scientists and Jupyter Notebook users. It allows you to seamlessly render live websites and embed YouTube videos directly within your `.ipynb` environment (Jupyter Notebook, JupyterLab, Google Colab).
+**ViewMatrixPro** is a lightweight Python library designed for Data Scientists and Jupyter Notebook users. It allows you to seamlessly render live websites and embed YouTube videos directly within your Jupyter notebook environment (Jupyter Notebook, JupyterLab, Google Colab).
 
 Stop switching tabs to read documentation or watch tutorials—view them right next to your code!
 
@@ -30,7 +30,7 @@ pip install ViewMatrixPro
 ```python
 from ViewMatrixPro.youtube import render_youtube_video
 
-render_youtube_video("https://www.youtube.com/watch?v=h25pePMdoPA&t=712s")
+render_youtube_video("https://youtu.be/WJKsPchji0Q?si=ao_q5LMfv_o4yHrq")
 ```
 
 ```python
