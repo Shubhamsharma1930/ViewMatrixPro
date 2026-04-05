@@ -42,7 +42,7 @@ render_site("https://www.google.com")
 # How to Install this package in Your System
 
 ```bash
-conda create -n viewmatrixpro_env python=3.8 -y
+conda create -n viewmatrixpro_env python=3.10 -y
 ```
 
 ```bash
