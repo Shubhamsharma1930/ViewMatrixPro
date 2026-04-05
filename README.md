@@ -1,10 +1,10 @@
 # ViewMatrixPro 🚀
 
-[![PyPI version](https://img.shields.io/pypi/v/NexusViewPro.svg)](https://pypi.org/project/NexusViewPro/)
-[![Python versions](https://img.shields.io/pypi/pyversions/NexusViewPro.svg)](https://pypi.org/project/NexusViewPro/)
-[![License](https://img.shields.io/pypi/l/NexusViewPro.svg)](https://github.com/entbappy/NexusViewPro/blob/main/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/ViewMatrixPro.svg)](https://pypi.org/project/ViewMatrixPro/)
+[![Python versions](https://img.shields.io/pypi/pyversions/ViewMatrixPro.svg)](https://pypi.org/project/ViewMatrixPro/)
+[![License](https://img.shields.io/pypi/l/ViewMatrixPro.svg)](https://github.com/entbappy/ViewMatrixPro/blob/main/LICENSE)
 
-**NexusViewPro** is a lightweight Python library designed for Data Scientists and Jupyter Notebook users. It allows you to seamlessly render live websites and embed YouTube videos directly within your `.ipynb` environment (Jupyter Notebook, JupyterLab, Google Colab).
+**ViewMatrixPro** is a lightweight Python library designed for Data Scientists and Jupyter Notebook users. It allows you to seamlessly render live websites and embed YouTube videos directly within your `.ipynb` environment (Jupyter Notebook, JupyterLab, Google Colab).
 
 Stop switching tabs to read documentation or watch tutorials—view them right next to your code!
 
@@ -21,20 +21,20 @@ Stop switching tabs to read documentation or watch tutorials—view them right n
 
 ## 📦 Installation
 
-You can install NexusViewPro via pip:
+You can install ViewMatrixPro via pip:
 
 ```bash
-pip install NexusViewPro
+pip install ViewMatrixPro
 ```
 
 ```python
-from NexusViewPro.youtube import render_youtube_video
+from ViewMatrixPro.youtube import render_youtube_video
 
 render_youtube_video("https://www.youtube.com/watch?v=h25pePMdoPA&t=712s")
 ```
 
 ```python
-from NexusViewPro.site import render_site
+from ViewMatrixPro.site import render_site
 
 render_site("https://www.google.com")
 ```
@@ -42,11 +42,11 @@ render_site("https://www.google.com")
 # How to Install this package in Your System
 
 ```bash
-conda create -n nexusviewpro_env python=3.8 -y
+conda create -n viewmatrixpro_env python=3.8 -y
 ```
 
 ```bash
-conda activate nexusviewpro_env
+conda activate viewmatrixpro_env
 ```
 
 ```bash
